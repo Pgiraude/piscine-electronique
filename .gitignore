@@ -1,0 +1,12 @@
+Garder uniquement la configuration KiCad
+
+config/*
+!config/.config/
+!config/.config/kicad/
+
+Ignorer caches et fichiers temporaires
+
+config/.cache/
+config/.local/
+config/.dbus/
+config/.XDG/
