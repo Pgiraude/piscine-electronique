@@ -10,3 +10,5 @@ config/.cache/
 config/.local/
 config/.dbus/
 config/.XDG/
+
+fp-info-cache
