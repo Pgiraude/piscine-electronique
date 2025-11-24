@@ -77,7 +77,7 @@
 			(pin passive line
 				(at 0 3.556 270)
 				(length 2.794)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -95,7 +95,7 @@
 			(pin passive line
 				(at 0 -3.556 90)
 				(length 2.794)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1546,6 +1546,117 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "capacitor_v2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.286 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "capacitor_v2_1_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3556)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3556)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "connector_1"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2109,7 +2220,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J3"
-			(at -1.778 2.032 0)
+			(at -5.334 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2265,7 @@
 		(symbol "connector_3_1_1"
 			(polyline
 				(pts
-					(xy -5.08 36.83) (xy 0 36.83) (xy 0 19.05) (xy -5.08 19.05) (xy -5.08 36.83)
+					(xy 1.27 7.62) (xy 6.35 7.62) (xy 6.35 -8.255) (xy 1.27 -8.255) (xy 1.27 7.62)
 				)
 				(stroke
 					(width 0)
@@ -2165,7 +2276,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 35.56 180)
+				(at 8.89 6.35 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2183,7 +2294,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 33.02 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2201,7 +2312,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 30.48 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2219,7 +2330,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 27.94 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "RXI"
 					(effects
@@ -2237,7 +2348,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 25.4 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "TXO"
 					(effects
@@ -2255,7 +2366,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 22.86 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "DTR"
 					(effects
@@ -2265,24 +2376,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 20.32 180)
-				(length 2.54)
-				(name "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

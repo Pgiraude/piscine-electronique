@@ -58,7 +58,9 @@
       "Item",
       "Description"
     ],
-    "open_libs": []
+    "open_libs": [
+      "my_library"
+    ]
   },
   "library": {
     "sort_mode": 0

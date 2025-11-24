@@ -20,4 +20,5 @@ services:
       - |
         mkdir -p /projects /config
         chown -R ${PUID:-1000}:${PGID:-1000} /projects /config
+        chmod -R 777 /projects /config
         exec /init
