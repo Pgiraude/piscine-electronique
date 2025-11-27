@@ -110,12 +110,12 @@
   },
   "footprint_chooser": {
     "filter_on_pin_count": false,
-    "height": 1299,
-    "sash_h": 760,
-    "sash_v": 639,
+    "height": 2019,
+    "sash_h": 1272,
+    "sash_v": 999,
     "sort_mode": 0,
     "use_fp_filters": false,
-    "width": 1280
+    "width": 1920
   },
   "footprint_viewer": {
     "autozoom": true,
@@ -584,8 +584,8 @@
       "shove_vias": true,
       "smart_pads": true,
       "smooth_dragged_segments": true,
-      "snap_to_pads": false,
-      "snap_to_tracks": false,
+      "snap_to_pads": true,
+      "snap_to_tracks": true,
       "start_diagonal": false,
       "suggest_finish": false,
       "via_force_prop_iteration_limit": 40,
@@ -604,7 +604,7 @@
       "axes_enabled": false,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
-      "last_size": 15,
+      "last_size": 16,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
@@ -765,6 +765,6 @@
     ]
   },
   "zones": {
-    "net_sort_mode": -1
+    "net_sort_mode": 1
   }
 }

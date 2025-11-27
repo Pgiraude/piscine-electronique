@@ -863,7 +863,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "VCC"
-		(power)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
